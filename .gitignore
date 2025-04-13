@@ -1,0 +1,6 @@
+env/
+data_preped.csv
+transformed_data.csv
+*.so
+*.pyc
+__pycache__
