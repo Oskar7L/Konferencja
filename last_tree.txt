@@ -1,0 +1,31 @@
+0:[LogReturn_lag1<0.457668394] yes=1,no=2,missing=2,gain=0.0755375102,cover=32.4284439
+	1:[LogReturn_lag6<-1.23569942] yes=3,no=4,missing=4,gain=0.0892439783,cover=27.0747776
+		3:leaf=-0.0572936051,cover=1.88640904
+		4:[LogReturn_lag4<0.342312604] yes=7,no=8,missing=8,gain=0.126581386,cover=25.1883698
+			7:[dayofmonth_sin<0.897804558] yes=11,no=12,missing=12,gain=0.102028556,cover=18.0076008
+				11:[volatility_10<-0.00471161911] yes=17,no=18,missing=18,gain=0.144302472,cover=15.3659859
+					17:[LogReturn_lag5<0.213516891] yes=25,no=26,missing=26,gain=0.118085742,cover=12.7393808
+						25:leaf=0.02191782,cover=9.77494717
+						26:leaf=-0.0387346931,cover=2.96443319
+					18:[MACD<-0.783237219] yes=27,no=28,missing=28,gain=0.043602556,cover=2.62660551
+						27:leaf=0.0144169107,cover=1.22489572
+						28:leaf=0.0990089551,cover=1.40170979
+				12:[LogReturn_lag4<-0.153645337] yes=19,no=20,missing=20,gain=0.0793165118,cover=2.64161539
+					19:leaf=-0.063434042,cover=1.63055182
+					20:leaf=0.0206943434,cover=1.01106346
+			8:[MACD<0.540374517] yes=13,no=14,missing=14,gain=0.133112267,cover=7.18076801
+				13:[MA50<0.886101186] yes=21,no=22,missing=22,gain=0.0858515203,cover=4.53280687
+					21:[dayofyear_sin<-0.288482428] yes=29,no=30,missing=30,gain=0.0710066259,cover=3.42900872
+						29:leaf=-0.0137685714,cover=1.468364
+						30:leaf=-0.105821699,cover=1.96064472
+					22:leaf=0.00834226701,cover=1.10379815
+				14:[LogReturn_lag5<1.16908705] yes=23,no=24,missing=24,gain=0.129810706,cover=2.6479609
+					23:leaf=0.058922898,cover=1.57098711
+					24:leaf=-0.0429048762,cover=1.07697368
+	2:[Gold_LogReturn<0.957550049] yes=5,no=6,missing=6,gain=0.106366776,cover=5.35366583
+		5:[Gold_LogReturn<-0.233633652] yes=9,no=10,missing=10,gain=0.0706837624,cover=4.0775094
+			9:[Gold_LogReturn<-0.606392264] yes=15,no=16,missing=16,gain=0.10656061,cover=2.28384805
+				15:leaf=0.0501558259,cover=1.27851629
+				16:leaf=-0.0448751338,cover=1.00533187
+			10:leaf=0.0822265968,cover=1.79366112
+		6:leaf=-0.0309094936,cover=1.27615654
